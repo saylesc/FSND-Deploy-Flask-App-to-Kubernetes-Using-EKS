@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: simple-flask
-        image: IMAGE_TAG
+        image: saylesc/simple-flask:v2
         securityContext:
           privileged: false
           readOnlyRootFilesystem: false

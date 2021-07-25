@@ -41,4 +41,4 @@ artifacts:
   files: build.json
 env:
   parameter-store:         
-    JWT_SECRET: cory_secret
+    JWT_SECRET: JWT_SECRET
